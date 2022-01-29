@@ -100,7 +100,7 @@ html>
 
    <body>
 
-      <div class = title >GeeksforGeeks Calculator</div>
+      <div class = title >Calculator</div>
 
       <table border="1">
 
@@ -108,7 +108,7 @@ html>
 
             <td colspan="3"><input type="text" id="result"/></td>
 
-            <!-- clr() function will call clr to clear all value -->
+            
 
             <td><input type="button" value="c" onclick="clr()"/> </td>
 
@@ -116,9 +116,9 @@ html>
 
          <tr>
 
-            <!-- create button and assign value to each button -->
+           
 
-            <!-- dis("1") will call function dis to display value -->
+       
 
             <td><input type="button" value="1" onclick="dis('1')"/> </td>
 
@@ -160,7 +160,7 @@ html>
 
             <td><input type="button" value="0" onclick="dis('0')"/> </td>
 
-            <!-- solve function call function solve to evaluate value -->
+           
 
             <td><input type="button" value="=" onclick="solve()"/> </td>
 
